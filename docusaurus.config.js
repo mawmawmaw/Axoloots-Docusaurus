@@ -12,8 +12,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Symbiotik', // Usually your GitHub org/user name.
-  projectName: 'Axoloots', // Usually your repo name.
+  organizationName: 'mawmawmaw', // Usually your GitHub org/user name.
+  projectName: 'Axoloots-Docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -22,13 +22,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/mawmawmaw/Axoloots-Docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mawmawmaw/Axoloots-Docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
