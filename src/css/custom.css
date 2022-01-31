@@ -1,0 +1,61 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2550ae;
+  --ifm-color-primary-dark: #21489d;
+  --ifm-color-primary-darker: #1f4494;
+  --ifm-color-primary-darkest: #1a387a;
+  --ifm-color-primary-light: #2958bf;
+  --ifm-color-primary-lighter: #2b5cc8;
+  --ifm-color-primary-lightest: #3d6dd6;
+  --ifm-heading-color: #2550ae;
+}
+html[data-theme='dark'] {
+  --ifm-color-primary: #f5f5f5;
+  --ifm-color-primary-dark: #dddddd;
+  --ifm-color-primary-darker: #d0d0d0;
+  --ifm-color-primary-darkest: #ababab;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#__docusaurus{ 
+  background-image: url(https://axoloots.com/bg.jpg);
+  background-size: 720px;
+  background-position: bottom left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffffaa;
+}
+.docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+  background-color: #ffffffaa;
+}
+.heroBanner_src-pages-index-module {
+  background: transparent;
+  padding: 20rem 0 !important;
+}
+.main-logo{
+  width: 380px;
+  height: 50px;
+}
