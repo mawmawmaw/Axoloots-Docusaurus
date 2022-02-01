@@ -56,7 +56,7 @@ const config = {
         logo: {
           alt: 'Axoloots Logo',
           src: 'img/logo.svg',
-          srcDark: 'img/logo_white.png',
+          srcDark: 'img/logo-white.svg',
         },
         items: [
           {

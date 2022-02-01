@@ -48,7 +48,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   justify-content: center;
   background-color: #ffffffaa;
 }
-.docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module {
+.docPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage-styles-module, .hero {
   background-color: #ffffffaa;
 }
 .heroBanner_src-pages-index-module {
@@ -58,4 +58,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .main-logo{
   width: 380px;
   height: 50px;
+}
+@media screen and (max-width: 480px){
+  .main-logo{
+    width: 320px;
+    height: 40px;
+  }
 }
